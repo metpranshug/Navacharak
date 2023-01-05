@@ -1,0 +1,154 @@
+.body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    top: 0;
+    left:0;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-radius: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2vw;
+}
+
+.nav li{
+    margin-left: 71px;
+    list-style: none;
+    font-size: 22px;
+}
+
+.menu-links{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-links:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.fixed{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.fixed .significance{
+    background-color: rgb(112, 255, 83);
+    margin: auto;
+    height: auto;
+    width: 100%;
+    top: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.fixed .mission{
+    background-color: rgb(236, 121, 14);
+    border-radius: 15px;
+    position: relative;
+    top: 190px;
+    margin: auto;
+    width: 55%;
+    height: 300px;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.fixed .mission a{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight:900;
+    position: absolute;
+    
+}
+
+.irc{
+    background-color: rgb(236, 121, 14);
+    border-radius: 15px;
+    position:relative;
+    top: 130px;
+    left: 250px;
+    width: 70%;
+    height: 820px;
+}
+
+.irc a{
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    position: absolute;  
+}
+
+.fixed .extra{
+    background-color: rgb(112, 255, 83);
+    margin: auto;
+    height: auto;
+    width: auto ;
+    left: 300px;
+    top: 580px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    position: absolute;
+}
+.fixed .btn{
+    height: 70px;
+    width: 130px;
+    background-color: rgb(112, 255, 83);
+    border-radius: 7px;
+    position: absolute;
+    top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    text-align: left;
+}
+.fixed .btn a{
+    position: absolute;
+    top: 20px;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.fixed .btn a:hover{
+    position: absolute;
+    top: 20px;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: blue;
+    text-decoration: none;
+}
